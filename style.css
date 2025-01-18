@@ -222,21 +222,32 @@ a{
     transform: translate(-90%, -50%);
 }
 
+.contacts{
+    margin-bottom: 10px;
+}
+
 .linkedIn{
     width: 20%;
-    margin-left: -100px;
+    margin-left: -140px;
     border-radius: 20%;
 }
 
 .gmail{
     width: 15%;
     margin-top: -50px;
+    margin-left: -50px;
 }
 
 .instagram{
     width: 12.5%;
-    margin-left: 100px;
+    margin-left: 40px;
     margin-top: -39px;
+}
+
+.github{
+    width: 16%;
+    margin-left: 125px;
+    margin-top: -40px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -248,7 +259,7 @@ a{
         align-items: center;
     }
 
-    .linkedIn, .gmail, .instagram {
+    .linkedIn, .gmail, .instagram, .github{
         width: 10%;
         margin: 10px 0;
     }
